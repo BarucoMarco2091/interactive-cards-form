@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  width: 100%;
+  height: 100dvh;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+#container .left {
+  background-image: url("../assets/bg-main-desktop.png");
+  width: 50%;
+  height: 100dvh;
+}
+#container .card-img {
+  position: relative;
+  right: 30dvh;
+  z-index: 3;
+}
+#container .card-img .card-front {
+  max-width: 100%;
+  height: auto;
+  margin: 7dvh 2dvh;
+}
+#container .card-img .card-back {
+  max-width: 100%;
+  height: auto;
+}
+#container .card-information {
+  display: flex;
+  flex-direction: column;
+  padding: 3dvh;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 1dvh;
+}
+#container .card-information .card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100dvh;
+}
+#container .card-information .card-info label {
+  font-family: "Space Grotesk", sans-serif, serif;
+}
+#container .card-information .card-info #text {
+  margin-top: 1dvh;
+  margin-bottom: 1dvh;
+  font-family: "Space Grotesk", sans-serif, serif;
+  width: 50dvh;
+  height: 5dvh;
+  border-radius: 1dvh;
+}
+#container .card-information .card-info .name-error {
+  color: hsl(0, 100%, 66%);
+  font-family: "Space Grotesk", sans-serif, serif;
+}
+#container .card-information .card-info #card-number {
+  font-family: "Space Grotesk", sans-serif, serif;
+  width: 50dvh;
+  height: 5dvh;
+  border-radius: 1dvh;
+}
+#container .card-information .card-info .number-error {
+  color: hsl(0, 100%, 66%);
+  font-family: "Space Grotesk", sans-serif, serif;
+}
+#container .card-information .other-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3dvh;
+  gap: 2dvh;
+}
+#container .card-information .other-info label {
+  font-family: "Space Grotesk", sans-serif, serif;
+}
+#container .card-information .other-info .exp-date {
+  display: flex;
+  gap: 1dvh;
+}
+#container .card-information .other-info .exp-date #month {
+  width: 7dvh;
+  font-family: "Space Grotesk", sans-serif, serif;
+  border-radius: 1dvh;
+}
+#container .card-information .other-info .exp-date #year {
+  width: 7dvh;
+  height: 5dvh;
+  font-family: "Space Grotesk", sans-serif, serif;
+  border-radius: 1dvh;
+}
+#container .card-information .other-info .exp-date .exp-error {
+  color: hsl(0, 100%, 66%);
+  font-family: "Space Grotesk", sans-serif, serif;
+  display: flex;
+  flex-direction: row;
+}
+#container .card-information .other-info .cvc {
+  display: flex;
+  flex-direction: column;
+}
+#container .card-information .other-info .cvc #cvc {
+  width: 15dvh;
+  height: 5dvh;
+  font-family: "Space Grotesk", sans-serif, serif;
+  border-radius: 1dvh;
+}
+#container .card-information .other-info .cvc .cvc-error {
+  color: hsl(0, 100%, 66%);
+  font-family: "Space Grotesk", sans-serif, serif;
+}
+#container .card-information .confirm-button {
+  background: linear-gradient(hsl(249, 99%, 64%), hsl(278, 94%, 30%));
+  width: 50dvh;
+  height: 5dvh;
+  border-radius: 1dvh;
+  border: none;
+}/*# sourceMappingURL=styles.css.map */
